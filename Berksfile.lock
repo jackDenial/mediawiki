@@ -1,0 +1,37 @@
+DEPENDENCIES
+  media
+    path: .
+    metadata: true
+
+GRAPH
+  apache2 (3.3.0)
+  build-essential (8.0.3)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  compat_resource (12.19.0)
+  database (6.1.1)
+    postgresql (>= 1.0.0)
+  media (0.1.0)
+    apache2 (>= 0.0.0)
+    database (>= 0.0.0)
+    mysql (>= 0.0.0)
+    php (>= 0.0.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  mysql (8.4.0)
+  ohai (5.1.0)
+  openssl (7.1.0)
+  php (4.4.0)
+    build-essential (>= 0.0.0)
+    mysql (>= 6.0.0)
+    yum-epel (>= 0.0.0)
+  postgresql (6.1.1)
+    build-essential (>= 2.0.0)
+    compat_resource (>= 12.16.3)
+    openssl (>= 4.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (3.1.1)
+    ohai (>= 4.0.0)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)
